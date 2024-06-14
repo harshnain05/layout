@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -42,7 +43,8 @@ section {
 
 .name {
     margin-top: 24px;
-    font-family: work sans;
+    font-family: "Work Sans", sans-serif;
+
     font-size: 20px;
     font-weight: 500;
     line-height: 24.72px;
@@ -52,8 +54,8 @@ section {
 }
 
 p {
-    //styleName: H5-20px;
-    font-family: Work Sans;
+    font-family: "Work Sans", sans-serif;
+
     font-size: 20px;
     font-weight: 500;
     line-height: 24.72px;
@@ -88,7 +90,7 @@ p {
     position: absolute;
     top: 29px;
     right: -41px;
-    transition: all 700ms linear;
+    transition: all 400ms linear;
 
 }
 
@@ -103,7 +105,7 @@ p {
     margin-bottom: 5px;
 }
 
-.img:hover .svg-parent {
+.card:hover .svg-parent {
     right: 5px;
 }
 
